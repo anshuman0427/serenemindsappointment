@@ -1,0 +1,41 @@
+.root {
+  padding-top: 80px;
+  padding-bottom: 180px;
+  background-color: #228be6; /* Replace var(--mantine-color-blue-filled) with actual color */
+}
+
+.label {
+  text-align: center;
+  font-weight: 900;
+  font-size: 220px;
+  line-height: 1;
+  margin-bottom: 24px; /* Replace var(--mantine-spacing-xl) * 1.5 with actual value */
+  color: #74c0fc; /* Replace var(--mantine-color-blue-3) with actual color */
+}
+
+.title {
+  font-family: Greycliff CF, sans-serif;
+  text-align: center;
+  font-weight: 900;
+  font-size: 38px;
+  color: white; /* Replace var(--mantine-color-white) with actual color */
+}
+
+.description {
+  max-width: 540px;
+  margin: auto;
+  margin-top: 24px; /* Replace var(--mantine-spacing-xl) with actual value */
+  margin-bottom: 36px; /* Replace var(--mantine-spacing-xl) * 1.5 with actual value */
+  color: #a5d8ff; /* Replace var(--mantine-color-blue-1) with actual color */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) { /* Replace $mantine-breakpoint-sm with actual value */
+  .label {
+    font-size: 120px;
+  }
+
+  .title {
+    font-size: 32px;
+  }
+}
