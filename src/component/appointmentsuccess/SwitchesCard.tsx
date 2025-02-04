@@ -3,7 +3,7 @@ import classes from './SwitchesCard.module.css';
 
 const data = [
   { title: 'Psychotherapy Session', description: 'A one-on-one session for emotional and mental health support.' },
-  { title: '15 Feb 2025', description: 'Duration: 50 minutes' },
+  {title: '15 Feb 2025', description: 'Duration: 50 minutes' },
   { title: '₹1,500', description: '2.1% of the fee will be charged by payment service provider' },
   {
     title: '+918957276641',
@@ -29,7 +29,7 @@ export function SwitchesCard() {
         Appointment summary
       </Text>
       <Text fz="xs" c="dimmed" mt={3} mb="xl">
-        Please review all the details before paying fee.
+        Your fee has been paid.
       </Text>
       {items}
     </Card>

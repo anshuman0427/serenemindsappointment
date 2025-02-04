@@ -9,7 +9,7 @@ import {
   Center,
 } from '@mantine/core';
 import { ContinueButton } from './GoogleButton';
-import { ServiceCard } from '../ImageCheckboxes/ImageCheckboxes';
+import { ServiceCard } from './ImageCheckboxes/ImageCheckboxes';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom'; // Import useNavigate
 

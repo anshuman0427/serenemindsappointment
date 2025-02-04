@@ -9,7 +9,7 @@ import {
   Center,
 } from '@mantine/core';
 import { ContinueButton } from './GoogleButton';
-import { LeadGrid } from '../LeadGrid/LeadGrid';
+import { LeadGrid } from './LeadGrid/LeadGrid';
 import { useNavigate } from 'react-router-dom'; // Import useNavigate
 
 export function Calendar(props: PaperProps) {
@@ -32,6 +32,7 @@ export function Calendar(props: PaperProps) {
             maxWidth: 600, // Maximum width for desktop
             width: '100%', // Responsive width
           }}
+          
         >
           <Center>
             <UserButton />

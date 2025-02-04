@@ -1,5 +1,5 @@
 import { Text, UnstyledButton, Center } from '@mantine/core';
-import classes from '../ImageCheckboxes/ImageCheckboxes.module.css';
+import classes from './ImageCheckboxes/ImageCheckboxes.module.css';
 import { useState } from 'react';
 
 const timeSlots = [

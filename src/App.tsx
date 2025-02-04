@@ -8,7 +8,8 @@ import { Services } from "./component/Servicesoff/Services";
 import { Calendar } from "./component/Calendar/Calendar";
 import { Contact } from "./component/Contactinfo/Contact";
 import { ReviewInfo } from "./component/ReviewInfo/ReviewInfo";
-import { ServerError } from "./component/ServerError/ServerError"; // Optional
+import { ServerError } from "./component/ServerError/ServerError"; 
+import { AppointmentSuccess } from "./component/appointmentsuccess/AppointmentSuccess";
 
 export default function App() {
   return (
@@ -21,7 +22,8 @@ export default function App() {
           <Route path="/calendar" element={<Calendar />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/review" element={<ReviewInfo />} />
-          <Route path="/appointmentsuccess" element={<ReviewInfo />} />
+          <Route path="/appointmentdetails" element={<ReviewInfo />} />
+          <Route path="/appointmentsuccess" element={<AppointmentSuccess />} />
           <Route path="/servererror" element={<ServerError />} />
         </Routes>
       </Router>
