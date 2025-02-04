@@ -18,7 +18,6 @@
     "@mantine/styles": "^6.0.22",
     "@mantinex/dev-icons": "^1.1.0",
     "@mui/material": "^6.4.2",
-    "@mui/x-data-grid": "^7.25.0",
     "@mui/x-date-pickers": "^7.25.0",
     "@tabler/icons-react": "^3.29.0",
     "dayjs": "^1.11.13",
